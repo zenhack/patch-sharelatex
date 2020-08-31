@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Serif'), local('PTSerif-Regular'), url(/cdn-vendor/fonts.gstatic.com/s/ptserif/v11/EJRVQgYoZZY2vCFuvAFWzro.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Serif Bold'), local('PTSerif-Bold'), url(/cdn-vendor/fonts.gstatic.com/s/ptserif/v11/EJRSQgYoZZY2vCFuvAnt66qSVy4.ttf) format('truetype');
+}

@@ -1,0 +1,12 @@
+2b8bed9eaf25eba7953ea788daccd634d674157fcfb4131633ab90f9c5bff0b7  sharelatex-old.spk
+e511891d3e01b0b27aed51a219ced5119e2c3d0460465af8242e9bff4cb61b77  cdn-vendor/font-awesome/4.2.0/fonts/fontawesome-webfont.eot
+199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1  cdn-vendor/font-awesome/4.2.0/fonts/fontawesome-webfont.woff
+d5b5636ebb2e124810436200086b74a60dff9e8a8be7f4a1088bf5d3458bc3c8  cdn-vendor/font-awesome/4.2.0/fonts/fontawesome-webfont.svg
+4d6eb9e9d852a2a6f74e7c428456a2f07fc63a1613d10192d8ed3401d9da5ffa  cdn-vendor/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf
+0fb1bbca73646e8e2b93c82e8d8b219647b13d4b440c48e338290b9a685b8de1  cdn-vendor/font-awesome/4.2.0/css/font-awesome.min.css
+8783ab499554b9729b13687c615a5cc94efdc596574caa2527778fc6179ca1df  cdn-vendor/fonts.gstatic.com/s/ptserif/v11/EJRVQgYoZZY2vCFuvAFWzro.ttf
+9b2c024497d63dce3127d13a04d0ba118bad5a26b230c8c4c5013fa86d4dbc48  cdn-vendor/fonts.gstatic.com/s/ptserif/v11/EJRSQgYoZZY2vCFuvAnt66qSVy4.ttf
+23fea0a987694a487d5e053345c610b6c2b0cee5943e6c54dffa8c4d3b8c2a27  cdn-vendor/fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhs.ttf
+5669ca033ab68625c0cae6bcf1abb2722c02ea43a0d65323b2f7b023c7afa35e  cdn-vendor/fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf
+dbf567ab82eeff26676787e317e68b11d7546b2ac57543c34e6d3639faedd2f3  cdn-vendor/fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN_r8OUuhs.ttf
+d7f8be99aee46445efcc7c49145388deca59f0dfd183ed4b3892ca111c2b401a  cdn-vendor/fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UN7rgOUuhs.ttf

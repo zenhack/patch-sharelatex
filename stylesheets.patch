@@ -1,0 +1,37 @@
+diff -ru --no-dereference sharelatex-old/web/app/views/layout.jade sharelatex-new/web/app/views/layout.jade
+--- sharelatex-old/web/app/views/layout.jade	2015-05-28 07:42:44.000000000 -0400
++++ sharelatex-new/web/app/views/layout.jade	2020-08-31 16:06:51.917515094 -0400
+@@ -18,7 +18,7 @@
+ 
+ 		link(rel="icon", href="/favicon.ico")
+ 		link(rel='stylesheet', href='/stylesheets/style.css?fingerprint='+fingerprint('/stylesheets/style.css'))
+-		link(href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css",rel="stylesheet")
++		link(href="/cdn-vendor/font-awesome/4.2.0/css/font-awesome.min.css",rel="stylesheet")
+ 
+ 		if settings.i18n.subdomainLang
+ 			each subdomainDetails in settings.i18n.subdomainLang
+diff -ru --no-dereference sharelatex-old/web/public/stylesheets/core/variables.less sharelatex-new/web/public/stylesheets/core/variables.less
+--- sharelatex-old/web/public/stylesheets/core/variables.less	2015-05-28 07:42:44.000000000 -0400
++++ sharelatex-new/web/public/stylesheets/core/variables.less	2020-08-31 16:29:37.681347560 -0400
+@@ -49,8 +49,8 @@
+ //
+ //## Font, line-height, and color for body text, headings, and more.
+ 
+-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+-@import url(//fonts.googleapis.com/css?family=PT+Serif:400,600,700);
++@import url(/cdn-vendor-patched/fonts.googleapis.com/css/opensans.css);
++@import url(/cdn-vendor-patched/fonts.googleapis.com/css/pt-serif.css);
+ 
+ @font-family-sans-serif:  "Open Sans", sans-serif;
+ @font-family-serif:       "PT Serif", serif;
+diff -ru --no-dereference sharelatex-old/web/public/stylesheets/style.css sharelatex-new/web/public/stylesheets/style.css
+--- sharelatex-old/web/public/stylesheets/style.css	2015-11-09 17:19:58.000000000 -0500
++++ sharelatex-new/web/public/stylesheets/style.css	2020-08-31 16:19:11.978886023 -0400
+@@ -1,5 +1,5 @@
+-@import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+-@import url(//fonts.googleapis.com/css?family=PT+Serif:400,600,700);
++@import url(/cdn-vendor-patched/fonts.googleapis.com/css/opensans.css);
++@import url(/cdn-vendor-patched/fonts.googleapis.com/css/pt-serif.css);
+ /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+ html {
+   font-family: sans-serif;
