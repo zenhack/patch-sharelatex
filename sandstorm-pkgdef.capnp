@@ -19,8 +19,8 @@ const pkgdef :Spk.PackageDefinition = (
 
     appTitle = (defaultText = "ShareLaTeX"),
 
-    appVersion = 10,  # Increment this for every release.
-    appMarketingVersion = (defaultText = "2015.11.16 (0.1.4+)"),
+    appVersion = 11,  # Increment this for every release.
+    appMarketingVersion = (defaultText = "2020.08.31 (0.1.4+)"),
 
     metadata = (
       icons = (
@@ -70,7 +70,7 @@ const pkgdef :Spk.PackageDefinition = (
     ]
   ),
 
-  alwaysInclude = ["/"],
+  alwaysInclude = ["."],
 
   bridgeConfig = (
     viewInfo = (
